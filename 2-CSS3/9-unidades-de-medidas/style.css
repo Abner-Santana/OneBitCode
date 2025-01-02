@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+    background-color: rgb(44, 39, 39);
+    padding: 10px;
+}
+
+section{
+    background-color: rgb(219, 206, 206);
+    height: 200px;
+}
+
+.box{
+    display: inline-block;
+    width: 75px;
+    border: 1px solid #232323;
+}
+
+.px{
+    height: 10px;                    
+}
+
+/* baseado no root element(valor padrão(16px no caso da fonte) */
+.rem{
+    height: 3rem;
+    /*16px vezes 3 = 48px*/
+}
+
+/* baseado no elemento atual */
+.em{
+    font-size: 32px;
+    height: 3em;
+}
+
+/* Baseado no elemento pai */
+.prcnt-66{
+    height: 70%;
+}
+
+/* view port heigth */
+.vh{
+    height: 30vh;
+}
+
+/* view port width */
+.vw{
+    width: 50vw;
+}

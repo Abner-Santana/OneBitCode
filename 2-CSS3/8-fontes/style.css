@@ -1,0 +1,26 @@
+*{
+    font-size: 1.3rem;
+    font-family: sans-serif, serif;
+    /*Caso o computador não tenha a sans-serif use a serif*/
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* Para usar fontes em negrito e italico, se usa o css pra isso, nao o  HML */
+.bold{
+    font-weight: 600;
+}
+
+.italic{
+    font-style: italic;
+}

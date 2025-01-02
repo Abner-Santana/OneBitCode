@@ -1,0 +1,30 @@
+*{
+    font-size: 1.3rem;
+}
+
+.inline{
+    display: inline;
+    color: red;
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+     */
+     margin: 10px;
+     border: 2px solid;
+}
+
+.block{
+    display: block;
+    color: blue;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.inline-block{
+    color: green;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid;
+}
+

@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBt8fP-rj4FxQk6K2sd45A7mNhqjPpIj-sTA&s);
+    background-size: cover;
+}
+
+.box-1{
+    width: 50%;
+    background-color: green;
+    border: 10px dotted red;
+}
+
+.box-2{
+    width: 50%;
+    background-image: linear-gradient(45deg, red, black); 
+    border: 10px solid blue;
+}
+.box-3{
+    width: 50%;
+    background-color: blue;
+    border: 10px solid black;
+}
