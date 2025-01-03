@@ -1,0 +1,12 @@
+*{
+    font-size: 1.6rem;
+}
+
+/* No uso de dois ou mais seletores, a especificidade é somada */
+body > h1{
+    color: black;
+}
+
+h1{
+    color: red;
+}

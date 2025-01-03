@@ -1,0 +1,14 @@
+*{
+    font-size: 1.3rem;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+section{
+    color: green;
+}

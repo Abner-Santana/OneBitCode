@@ -1,0 +1,37 @@
+/* seletor :nth-child() */
+*{
+    font-size: 1.4rem;
+}
+
+/* :nth-child(2n) -> pega os números pares
+    even -> pares, odd -> impar*/
+li:nth-child(odd){
+    color: #f00;
+}
+
+/* seletor de estado */
+li:hover{
+    background-color: blue;
+}
+
+input:focus{
+    background-color: blue;
+}
+
+/* pseudo elementos 
+::before e ::after*/
+
+li::before{
+    color: green;
+    content: "(antes) ";
+}
+
+li::after{
+    color: darkorange;
+    content: " (depois)";
+}
+
+/* o primeiro elemento */
+li:first-child{
+    color: yellow;
+}
