@@ -35,3 +35,9 @@ li::after{
 li:first-child{
     color: yellow;
 }
+
+/* seletor de negação 
+    menos o primeiro p  egue todos os outros*/
+li:not(:first-child){
+    color: red;
+}

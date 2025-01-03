@@ -1,0 +1,22 @@
+/* raiz do nosso estilo */
+:root{
+    font-size: 1.3rem;
+
+    --cor-principal: red;
+    --cor-claro: rgb(180, 180, 241);
+    --cor-escuro: rgb(76, 74, 74);
+    --preenchimento-pq: 1rem;
+    --preenhimento-md: 2rem;
+    --preenchimento-gd: 3rem;
+}
+
+header{
+    background-color: var(--cor-escuro);
+    padding: var(--preenchimento-pq);
+}
+
+section{
+    background-color: var(--cor-claro);
+    padding: var(--preenhimento-md);
+    color: var(--cor-escuro);
+}
