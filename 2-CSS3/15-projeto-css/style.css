@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: "Oxygen", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-background: black;
+    --color-white: #fff;
+    --color-blue: #1474b4;
+}
+
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+a{
+    color: var(--color-blue);
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.1), black);
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero__background{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    top: 0;
+}
+
+.hero__foreground{
+    color: var(--color-white);
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.hero__title{
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.hero__text{
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.section{
+    /* controlar o transbordamento dos elementos filhos */
+    overflow: hidden;
+    text-align: center;
+    padding: 0 8rem;
+}
+
+.section__title{
+    font-size: 3rem;
+    font-weight: 300;
+
+    margin: 4rem auto;
+}
+
+.section__img,
+.section__img-inline{
+    /* aplica a largura máxima do elemento para o espaço onde ele se econtra */
+    width: 100%;
+    border-radius: .75rem;
+    /* eixo x, eixo y, blur(embaçar), expanção/recuo, cor */
+    box-shadow: 0 1rem 4rem -0.5rem rgba(20, 116, 180, 0.25);
+    object-fit: cover;
+    position: relative;
+    max-height: 30rem;
+    /* posição de referencia para visualização das IMG */
+    object-position: top;
+}
+
+.section__text,
+.section__text-inline{
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin: 4rem auto;
+}
+
+.section__img-inline{
+    /* img flutuante */
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    float: left;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 25rem;
+}
+
+.section__text-inline{
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.section__text-inline > p{
+    margin-top: 1.5rem;
+}
+
+#hangouts img{
+    object-fit: cover;
+    object-position: center;
+}
+
+#img-inline-rigth{
+    float: right;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.gallery__img{
+    border-radius: .75rem;
+    height: 16rem;
+    width: 16rem;
+    object-fit: cover;
+     transform:  rotate(-2deg); /* -2 graus */
+}
+
+.gallery__img-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.gallery__img-wrapper + .gallery__img-wrapper{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.gallery__img-wrapper:nth-child(even) > .gallery__img{
+
+    transform: rotate(2deg);
+    top: 1rem;
+}
+
+.gallery__img-wrapper::after{
+    content: "";
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: red;
+    display: block;
+    position: absolute;
+    top: 0.25rem;
+    right: 1rem;
+    border-radius: .75rem;
+}
+
+/* pegando o elemento after */
+.gallery__img-wrapper:nth-child(even)::after{
+    left: 1rem;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+}
