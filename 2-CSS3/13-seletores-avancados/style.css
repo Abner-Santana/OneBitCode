@@ -37,7 +37,7 @@ li:first-child{
 }
 
 /* seletor de negação 
-    menos o primeiro p  egue todos os outros*/
+    menos o primeiro pegue todos os outros*/
 li:not(:first-child){
     color: red;
 }

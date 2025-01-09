@@ -124,7 +124,7 @@ a{
     height: 16rem;
     width: 16rem;
     object-fit: cover;
-     transform:  rotate(-2deg); /* -2 graus */
+    transform:  rotate(-2deg); /* -2 graus */
 }
 
 .gallery__img-wrapper{
