@@ -9,3 +9,4 @@ console.warn(t)
     // let name = window.prompt('Insira o seu nome:')
     // window.alert(name) 
     // window.confirm('confirma essa ação?')
+
