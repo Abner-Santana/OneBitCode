@@ -5,4 +5,4 @@
  do{
     velocidade -= 10
     alert('Velocidade atual: ' + velocidade)
- }while(velocidade > 0)
+ }while(velocidade > 0)0
