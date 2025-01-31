@@ -54,4 +54,11 @@ const racas = personagens.reduce(function (acumulador, personagem) {
     return acumulador
 }, {})
 
- console.log(racas)
+console.log(racas)
+
+// sort: ordena os elementos de um array a partir de comparações entre duplas de elementos
+const personagemOrdenados = personagens.slice().sort(function (a, b) {
+    return a.nivel - b.nivel
+})
+
+console.log(personagemOrdenados)
