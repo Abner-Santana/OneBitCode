@@ -41,6 +41,12 @@ do {
 
             vagas.push(vaga)
             break
+        case 3:
+
+            break
+
+        case 4:
+            break
     }
 
 } while (op !== 6)
