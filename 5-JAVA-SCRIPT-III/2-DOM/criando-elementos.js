@@ -10,6 +10,10 @@ function addInput(){
     newInput.type = 'text'
     newInput.name = 'input'
 
+    const newButton = document.createElement('button')
+    newButton.innerText = 'New Button'
+
     newLi.appendChild(newInput)
     ul.appendChild(newLi)
+    ul.appendChild(newButton)
 }
